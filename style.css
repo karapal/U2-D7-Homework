@@ -8,13 +8,50 @@
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
-
+#footer{
+  color: white;
+  margin-top: 3rem;
+}
+  
+.jumbotron{
+  background-image: url(https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95c3a34f9.png);
+}
 .card-img-top {
   height: 200px;
   padding: 0;
   margin: 0;
 }
+.jumbotron {
+  animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#table{
+  margin-top: 3rem;
+}
 
+
+#btn:hover,
+#btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+#head-title{
+  font-weight: bold;
+}
 .card {
     overflow: hidden;
+  }
+
+  #grid img {
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    margin: 0;
   }

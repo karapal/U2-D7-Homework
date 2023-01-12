@@ -10,7 +10,7 @@
     crossorigin="anonymous">
   </head>
   <body id="body">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Album Library</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,84 +19,205 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#head-title">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#heading">Favorite Albums</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#table">Track List</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#title">Most Favorite Album</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#worst-songs">Hall of Shame</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#group">Favorite Group</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">About Me</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            
           </div>
         </div>
       </nav>
+      <div class="container  bg-dark">
+      <div class="jumbotron">
+        <div class="pb-2 pb-md-3 pb-lg-4">
+          <div class="container-fluid jumbotron text-center my-0">
+            <div class="container">
+              <h1 id="head-title"> Discover new independent artists</h1>
+              <p class="lead">Free streaming, Free download</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="container">
-        <h2 id="heading" >My favourite Albums</h2>
-        <div class="row">
-        <div class="col-12 col-md-6 col-lg-3">
-        <div class="card" style="width: 15rem;">
+        <h2 id="heading" > Favourite Albums </h2>
+        <div class="row g-4">
+        <div class="col-6 col-md-4 col-lg-3">
+        <div class="card" style="width: 17rem;">
+          
             <img src="Gackt_-_Last_Moon.jpg" class="card-img-top" alt="Album Cover">
             <div class="card-body">
-              <h5 class="card-title">Gackt</h5>
-              <p class="card-text">Album Title</p>
-              <p class="card-text">Year</p>
+              <span class="badge text-bg-danger">Rock - Pop</span>
+              <h5 class="card-title">Astist:</h5>
+              <p class="card-text">Title:</p>
+              <p class="card-text">Year:</p>
+              
               <a href="#" class="btn btn-primary">Check Album</a>
+              
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card" style="width: 15rem;">
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card" style="width: 17rem;">
             <img src="Good_Apollo.jpg" class="card-img-top" alt="Album Cover">
             <div class="card-body">
+              <span class="badge text-bg-danger">Rock</span>
               <h5 class="card-title">
-                Coheed And Cambria</h5>
-              <p class="card-text">Album Title</p>
-              <p class="card-text">Year</p>
+                Artist:</h5>
+              <p class="card-text">Title:</p>
+              <p class="card-text">Year:</p>
               <a href="#" class="btn btn-primary">Check Album</a>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 15rem;">
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card" style="width: 17rem;">
               <img src="Cover_lifad.jpg" class="card-img-top" alt="Album Cover">
               <div class="card-body">
+                <span class="badge text-bg-danger">Industrial Metal</span>
                 <h5 class="card-title">
-                  Rammstein</h5>
-                <p class="card-text">Album Title</p>
-                <p class="card-text">Year</p>
+                  Artist:</h5>
+                <p class="card-text">Title:</p>
+                <p class="card-text">Year:</p>
                 <a href="#" class="btn btn-primary">Check Album</a>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 15rem;">
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card" style="width: 17rem;">
               <img src="R-9119034-1475096892-9243.jpg" class="card-img-top" alt="Album Cover">
               <div class="card-body">
+                <span class="badge text-bg-danger">Rock - Pop</span>
                 <h5 class="card-title">
-                  Linkin Park</h5>
-                <p class="card-text">Album Title</p>
-                <p class="card-text">Year</p>
+                  Artist:</h5>
+                <p class="card-text">Title:</p>
+                <p class="card-text">Year:</p>
                 <a href="#" class="btn btn-primary">Check Album</a>
               </div>
             </div>
           </div>
         </div>
+        <div id="table" class="container bg-light ">
+        <table class="table table-hover table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Artist</th>
+              <th scope="col">Title</th>
+              <th scope="col"> Year </th>
+              <th scope="col">Duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Linkin Park</td>
+              <td>In The End</td>
+              <td>2000</td>
+              <td>3:36</td>
+              <td><button type="button"   class="btn btn-danger">Delete</button></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Linkin Park</td>
+              <td>In The End</td>
+              <td>2000</td>
+              <td>3:36</td>
+              <td><button type="button"   class="btn btn-danger">Delete</button></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Linkin Park</td>
+              <td>In The End</td>
+              <td>2000</td>
+              <td>3:36</td>
+              <td><button type="button"  class="btn btn-danger">Delete</button></td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Linkin Park</td>
+              <td>In The End</td>
+              <td>2000</td>
+              <td>3:36</td>
+              <td><button type="button"  class="btn btn-danger">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="d-flex justify-content-center m-3">
+          <button type="button" id="btn" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+            Add Song
+          </button>
+        </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Adding a song</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="input-group mb-1">
+                  
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Artist</span>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Title</span>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                  </div>
+                  
+                  <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Year</span>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Duration</span>
+                  </div>
+                  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+                
+                
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+              
+            
+          
+        
+        
+  
         <h2 id="title"> Most Favorite Album </h2>
         <div class="card text-bg-dark">
-            <img src="ab67616d0000b273b99a0443bb0317dcc80b7746.jfif" class="card-img" alt="Album Cover">
+            <img src="ab67616d0000b273b99a0443bb0317dcc80b7746.jfif" id="card-img" alt="Album Cover">
             <div class="card-img-overlay">
               <h5 class="card-title">Evanescence</h5>
               <p class="card-text">The Open Door</p>
@@ -135,9 +256,9 @@
               </ol>
           </div>
           <h2 id="worst-songs">Hall of Shame</h2>
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 15rem;">
+          <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-3">
+            <div class="card" style="width: 17rem;">
                 <img src="Gackt_-_Last_Moon.jpg" class="card-img-top" alt="Album Cover">
                 <div class="card-body">
                   <h5 class="card-title">Gackt</h5>
@@ -147,8 +268,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="card" style="width: 15rem;">
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card" style="width: 17rem;">
                 <img src="Good_Apollo.jpg" class="card-img-top" alt="Album Cover">
                 <div class="card-body">
                   <h5 class="card-title">
@@ -159,8 +280,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card" style="width: 15rem;">
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 17rem;">
                   <img src="Cover_lifad.jpg" class="card-img-top" alt="Album Cover">
                   <div class="card-body">
                     <h5 class="card-title">
@@ -171,8 +292,8 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="card" style="width: 15rem;">
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 17rem;">
                   <img src="R-9119034-1475096892-9243.jpg" class="card-img-top" alt="Album Cover">
                   <div class="card-body">
                     <h5 class="card-title">
@@ -201,9 +322,75 @@
                   </div>
                 </div>
               </div>
+              <div id="grid" class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <img src="Gackt_-_Last_Moon.jpg">
+                    <img src="Good_Apollo.jpg">
+                    <img src="img_tour_main_pc-scaled.webp">
+                    <img src="R-9119034-1475096892-9243.jpg">
+                    <img src="ab67616d0000b273b99a0443bb0317dcc80b7746.jfif">
+                    <img src="Gackt_-_Last_Moon.jpg">
+                    <img src="Good_Apollo.jpg">
+                    <img src="img_tour_main_pc-scaled.webp">
+                    <img src="R-9119034-1475096892-9243.jpg">
+                    <img src="ab67616d0000b273b99a0443bb0317dcc80b7746.jfif">
+                    <img src="Gackt_-_Last_Moon.jpg">
+                    <img src="Good_Apollo.jpg">
+                    <img src="img_tour_main_pc-scaled.webp">
+                    <img src="R-9119034-1475096892-9243.jpg">
+                    <img src="ab67616d0000b273b99a0443bb0317dcc80b7746.jfif">
+                    <img src="Gackt_-_Last_Moon.jpg">
+                    <img src="Good_Apollo.jpg">
+                    <img src="img_tour_main_pc-scaled.webp">
+                    <img src="R-9119034-1475096892-9243.jpg">
+                    <img src="ab67616d0000b273b99a0443bb0317dcc80b7746.jfif">
+                    <img src="Gackt_-_Last_Moon.jpg">
+                    <img src="Good_Apollo.jpg">
+                    <img src="img_tour_main_pc-scaled.webp">
+                    <img src="R-9119034-1475096892-9243.jpg">
+                  </div>
+                </div>
+              </div>
+              <footer id="footer" class="page-footer font-small ">
+                <div class="container-fluid text-center text-md-left">
+                  <div class="row">
+                    <div class="col-md-6 mt-md-0 mt-3">
+                      <h5 class="text-uppercase"> About Me </h5>
+                      <ul class="list-unstyled ">
+                        <li>
+                          <a href="#!">Instagram<a>
+                        </li>
+                        <li>
+                          <a href="#!">Facebook<a>
+                        </li>
+                        <li>
+                          <a href="#!">GitHub</a>
+                        </li>
+                        <li>  
+                          <a href="#!">More Info</a>
+                        </li>
+                        
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+            </div>
+
 
 
       </div>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" 
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+
 
   </body>
+  </html>
